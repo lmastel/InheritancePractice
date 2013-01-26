@@ -13,5 +13,12 @@ public class Employee {
     private int employeeNumber;
     private String dateOfHire;
     private char gender;
+
+    @Override
+    public String toString() {
+        return "Employee{" + "employeeName=" + employeeName + ", employeeNumber=" + employeeNumber + ", dateOfHire=" + dateOfHire + ", gender=" + gender + '}';
+    }
+    
+    
     
 }
