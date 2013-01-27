@@ -20,4 +20,12 @@ public class HourlyEmployee extends Employee {
     public void setHoursWorked(double hoursWorked){
         this.hoursWorked = hoursWorked;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "HourlyEmployee{" + "ratePerHour=" + ratePerHour + ", hoursWorked=" + hoursWorked + '}';
+    }
+    
+    
 }

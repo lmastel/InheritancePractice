@@ -24,4 +24,12 @@ public class SalaryPlusBonusEmployee extends SalariedEmployee {
     public double getBonus() {
         return salary * bonusPercent;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "SalaryPlusBonusEmployee{" + "salary=" + salary + ", bonus=" + bonus + ", bonusPercent=" + bonusPercent + '}';
+    }
+    
+    
 }

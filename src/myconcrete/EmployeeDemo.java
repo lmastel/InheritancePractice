@@ -60,13 +60,20 @@ public class EmployeeDemo {
                 System.out.print("Enter salary bonus percent (0.0 to 100.0): ");
                 double bonusPercent = keyboard.nextDouble();
                 sb.setBonusPercent(bonusPercent);
+                System.out.println(sb);
             }
                  
-            System.out.println(se);
+            ;
         }
         else if (type.charAt(0) == 'H')
         {
             HourlyEmployee he = new HourlyEmployee();
+            
+            he.setEmployeeName(name);
+            he.setEmployeeNumber(number);
+            he.setDateOfHire(date);
+            he.setGender(gender.charAt(0));
+            
             System.out.print("Enter rate of pay per hour: ");
             double ratePerHour = keyboard.nextDouble();
             he.setRatePerHour(ratePerHour);
@@ -74,6 +81,8 @@ public class EmployeeDemo {
             System.out.print("Enter hours worked: ");
             double hoursWorked = keyboard.nextDouble();
             he.setHoursWorked(hoursWorked);
+            
+            System.out.println(he);
         }
     }
     
