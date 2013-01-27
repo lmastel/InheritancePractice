@@ -10,6 +10,17 @@ package myconcrete;
  */
 public class SalariedEmployee extends Employee {
     private double salary;
-    private String salaryPeriod;
+    
+    
+    public void setSalary( double salary){
+        this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "SalariedEmployee{" + "salary=" + salary + '}';
+    }
+    
     
 }

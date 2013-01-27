@@ -17,6 +17,10 @@ public class SalaryPlusBonusEmployee extends SalariedEmployee {
         this.salary = salary;
     }
     
+    public void setBonusPercent(double bonusPercent){
+        this.bonusPercent = bonusPercent;
+    }
+    
     public double getBonus() {
         return salary * bonusPercent;
     }
