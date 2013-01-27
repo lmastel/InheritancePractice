@@ -1,5 +1,7 @@
 
-package myconcrete;
+package myinterface;
+
+import myconcrete.*;
 
 
 public class SalaryPlusBonusEmployee extends SalariedEmployee {

@@ -1,6 +1,7 @@
 
-package myconcrete;
+package myinterface;
 
+import myconcrete.*;
 import java.util.Scanner;
 
 

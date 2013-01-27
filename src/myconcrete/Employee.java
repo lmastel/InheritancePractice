@@ -12,17 +12,33 @@ public class Employee {
         this.employeeName = employeeName;
     }
     
+    public String getEmployeeName (){
+        return employeeName;
+    }     
+    
      public void setEmployeeNumber(int employeeNumber){
         this.employeeNumber = employeeNumber;
     }
+     
+     public int getEmployeeNumber(){
+         return employeeNumber;
+     }
      
       public void setDateOfHire(String dateOfHire){
         this.dateOfHire = dateOfHire;
     }
       
+      public String getDateOfHire(){
+          return dateOfHire;
+      }
+      
        public void setGender(char gender){
         this.gender = gender;
     }
+       
+       public char getGender(){
+           return gender;
+       }
 
     @Override
     public String toString() {
